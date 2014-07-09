@@ -63,10 +63,18 @@ table {
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   line-height: 21px;
   background: #59876A;
+=======
+  /*font-family: Helvetica;*/
+  font-size: 16px;
+  line-height: 21px;
+  background: #59876A;
+  font-family: 'Ubuntu', sans-serif;
+>>>>>>> master
 }
 
 a {
@@ -75,12 +83,14 @@ a {
 
 p {
   margin-bottom: 1.1em;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: .8em;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -93,6 +103,7 @@ h3 {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .product-section {
   background: gray;
   border: 2px solid black;
@@ -114,4 +125,107 @@ h3 {
 }
 .product-section .basketball p {
   padding: 5px;
+=======
+/*.main {
+  width: 65%;
+  margin-right: 5%;
+  font-size: 16px;
+}
+
+.side {
+  width: 30%;
+  color: #666;
+  font-size: 14px;
+}*/
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.everything {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div.section1 {
+  background-image: url("storepic.jpeg");
+  height: 500px;
+  background-size: cover;
+}
+div.section1 .headbox {
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 10px 5px;
+  height: 150px;
+  font-weight: bold;
+  color: #cc0000;
+  /*border: 1px solid black;*/
+  /*background-color: rgba(89, 135, 106, 0.4);*/
+}
+
+.persona, .personb, .personc, .persond {
+  padding: 30px 10px 30px 10px;
+}
+.persona .text, .personb .text, .personc .text, .persond .text {
+  width: 75%;
+  display: inline-block;
+}
+.persona h3, .personb h3, .personc h3, .persond h3 {
+  display: block;
+}
+.persona p, .personb p, .personc p, .persond p {
+  /*width:60%;*/
+  display: inline-block;
+}
+.persona .pic, .personb .pic, .personc .pic, .persond .pic {
+  display: inline-block;
+  border-radius: 100%;
+  /*width:50px;*/
+  /*height: 50px;*/
+  margin-right: 20px;
+  /*text-align:right;*/
+}
+.persona img, .personb img, .personc img, .persond img {
+  opacity: 0.75;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.persona img:hover, .personb img:hover, .personc img:hover, .persond img:hover {
+  opacity: 1;
+}
+
+.testimonial h2 {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  padding-top: 15px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(#59876a, #7070ff);
+}
+header span {
+  padding-left: 5px;
+  font-weight: bold;
+}
+header a {
+  opacity: 0.6;
+  text-decoration: none;
+  padding-left: 15px;
+}
+header a:hover {
+  opacity: 1;
+}
+header i {
+  transition: all 750ms linear;
+  opacity: 0.6;
+  padding-right: 5px;
+}
+header i:hover {
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+>>>>>>> master
 }
