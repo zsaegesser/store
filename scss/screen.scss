@@ -52,7 +52,7 @@ h3 {
   }
 
   .basketball{
-    
+
     img{
       width: 200px;
       height: 200px;
@@ -97,9 +97,9 @@ div.section1 {
     margin-left:20px;
     margin-top: 30px;
     padding:10px 5px;
-    height:150px;
+    height:200px;
     font-weight: bold;
-    color: darken(red, 10%);
+    color: white;
     /*border: 1px solid black;*/
     /*background-color: rgba(89, 135, 106, 0.4);*/
   }
@@ -151,7 +151,7 @@ header {
   height: 50px;
   position: fixed;
   width: 100%;
-  background: linear-gradient(#59876A, lighten(blue, 22%));
+  background: linear-gradient(#59876A, lighten(blue, 26%));
   span {
     padding-left: 5px;
     font-weight: bold;
