@@ -93,24 +93,25 @@ h3 {
   font-weight: bold;
 }
 
-.content {
-  padding: 20px 0;
-  font-size: 0;
+.product-section {
+  background: gray;
+  border: 2px solid black;
+  width: 23% auto;
+  margin-left: 10px;
 }
-
-.main, .side {
-  display: inline-block;
-  vertical-align: top;
+.product-section h2 {
+  text-align: center;
+  padding: 10px 0;
 }
-
-.main {
-  width: 65%;
-  margin-right: 5%;
-  font-size: 16px;
+.product-section .basketball img {
+  width: 200px;
+  height: 200px;
+  opacity: .6;
+  transition: opacity 250ms linear;
 }
-
-.side {
-  width: 30%;
-  color: #666;
-  font-size: 14px;
+.product-section .basketball img:hover {
+  opacity: 1;
+}
+.product-section .basketball p {
+  padding: 5px;
 }
