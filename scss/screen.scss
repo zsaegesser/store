@@ -44,7 +44,9 @@ h3 {
   background: $gray-color;
   border: 2px solid black;
   width:23% auto;
-  margin-left: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+
 
   h2{
     text-align: center;
