@@ -107,16 +107,19 @@ h3 {
   text-align: center;
   padding: 10px 0;
 }
-.product-section .basketball img {
+.product-section .sport .basketball {
+  padding-left: 10px;
+}
+.product-section .sport img {
   width: 200px;
   height: 200px;
   opacity: .6;
   transition: opacity 250ms linear;
 }
-.product-section .basketball img:hover {
+.product-section .sport img:hover {
   opacity: 1;
 }
-.product-section .basketball p {
+.product-section .sport p {
   padding: 5px;
 }
 
