@@ -63,18 +63,10 @@ table {
 }
 
 body {
-<<<<<<< HEAD
-  font-family: 'Oxygen', sans-serif;
-  font-size: 16px;
-  line-height: 21px;
-  background: #59876A;
-=======
-  /*font-family: Helvetica;*/
   font-size: 16px;
   line-height: 21px;
   background: #59876A;
   font-family: 'Ubuntu', sans-serif;
->>>>>>> master
 }
 
 a {
@@ -103,7 +95,6 @@ h3 {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .product-section {
   background: gray;
   border: 2px solid black;
@@ -125,7 +116,8 @@ h3 {
 }
 .product-section .basketball p {
   padding: 5px;
-=======
+}
+
 /*.main {
   width: 65%;
   margin-right: 5%;
@@ -137,13 +129,8 @@ h3 {
   color: #666;
   font-size: 14px;
 }*/
-h3 {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 .everything {
   padding-top: 50px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 div.section1 {
@@ -227,5 +214,4 @@ header i {
 header i:hover {
   opacity: 1;
   -webkit-transform: rotate(360deg);
->>>>>>> master
 }
