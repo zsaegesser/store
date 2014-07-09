@@ -137,6 +137,9 @@ div.section1 {
   background-image: url("storepic.jpeg");
   height: 500px;
   background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 div.section1 .headbox {
   margin-left: 20px;
@@ -147,6 +150,11 @@ div.section1 .headbox {
   color: #cc0000;
   /*border: 1px solid black;*/
   /*background-color: rgba(89, 135, 106, 0.4);*/
+}
+
+.section2 {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .persona, .personb, .personc, .persond {

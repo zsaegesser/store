@@ -52,7 +52,7 @@ h3 {
   }
 
   .basketball{
-
+    
     img{
       width: 200px;
       height: 200px;
@@ -90,6 +90,9 @@ div.section1 {
   background-image: url('storepic.jpeg');
   height:500px;
   background-size:cover;
+  background-position: center center; 
+  margin: 0 auto;
+   max-width: 1200px;
   .headbox {
     margin-left:20px;
     margin-top: 30px;
@@ -101,7 +104,10 @@ div.section1 {
     /*background-color: rgba(89, 135, 106, 0.4);*/
   }
 }
-
+.section2 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .persona, .personb, .personc, .persond {
   padding:30px 10px 30px 10px;
 
@@ -135,10 +141,11 @@ div.section1 {
   }
 }
 .testimonial h2 {
-  padding-top: 15px;
-  text-align:center;
-  font-weight: bold;
-}
+    padding-top: 15px;
+    text-align:center;
+    font-weight: bold;
+  }
+
 header {
   padding-top: 15px;
   height: 50px;
