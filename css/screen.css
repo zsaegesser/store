@@ -63,7 +63,6 @@ table {
 }
 
 body {
-  /*font-family: Helvetica;*/
   font-size: 16px;
   line-height: 21px;
   background: #59876A;
@@ -80,20 +79,43 @@ p {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: .8em;
   font-family: 'Ubuntu', sans-serif;
 }
 
-.content {
-  padding: 20px 0;
-  font-size: 0;
+h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.main, .side {
-  display: inline-block;
-  vertical-align: top;
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-section {
+  background: gray;
+  border: 2px solid black;
+  width: 23% auto;
+  margin-left: 10px;
+}
+.product-section h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+.product-section .basketball img {
+  width: 200px;
+  height: 200px;
+  opacity: .6;
+  transition: opacity 250ms linear;
+}
+.product-section .basketball img:hover {
+  opacity: 1;
+}
+.product-section .basketball p {
+  padding: 5px;
 }
 
 /*.main {
@@ -107,13 +129,8 @@ h1 {
   color: #666;
   font-size: 14px;
 }*/
-h3 {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 .everything {
   padding-top: 50px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 div.section1 {
