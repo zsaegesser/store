@@ -231,22 +231,60 @@ header i:hover {
 
 .contacts {
   font-size: 0;
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
 }
 
 .textbox, .check, span, option, select, .request, button {
   font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 select {
   width: 75%;
 }
 
+.check {
+  display: none;
+}
+
+.check:checked {
+  /*content: "&#10003";*/
+  /*content: "*";*/
+  display: inherit;
+}
+
+.checking {
+  background-color: rgba(130, 130, 130, 0.3);
+  border-radius: 40px;
+}
+
+.currencying {
+  background-color: rgba(130, 130, 130, 0.3);
+  border-radius: 40px;
+}
+
 .request {
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 
+div .pure-u-1-4, div .pure-u-3-4 {
+  padding: 10px 10px 5px 10px;
+}
+
 button {
+  background-color: #828282;
   height: 50px;
   width: 75%;
+}
+
+span {
+  opacity: 0.7;
+  padding-left: 5px;
+}
+
+span:hover {
+  opacity: 1;
+  font-weight: bold;
 }
