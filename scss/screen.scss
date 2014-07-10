@@ -121,6 +121,7 @@ h3 {
     margin-right: 20px;
   }
   img {
+    transition:all 250ms linear;
     opacity: 0.75;
     height: 50px;
     width:50px;
@@ -128,6 +129,7 @@ h3 {
   }
  img:hover {
   opacity:1;
+  -webkit-transform:rotate(360deg);
   }
 }
 .testimonial h2 {
